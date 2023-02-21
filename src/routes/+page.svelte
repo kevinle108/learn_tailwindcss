@@ -14,6 +14,36 @@
 			<a href="#" class="hover:text-darkGrayishBlue">Community</a>
 		</div>
 		<!-- Button -->
-		<a href="#" class="hidden p-3 px-6 pt-2 text-white bg-brightRed rounded-full baseline hover:bg-brightRedLight md:block">Get Started</a>
+		<a
+			href="#"
+			class="baseline hidden rounded-full bg-brightRed p-3 px-6 pt-2 text-white hover:bg-brightRedLight md:block"
+			>Get Started</a
+		>
 	</div>
 </nav>
+
+<!-- Hero Section -->
+<section id="hero">
+	<!-- Flex container -->
+	<div
+		class="container mx-auto mt-10 flex flex-col-reverse items-center space-y-0 px-6 md:flex-row md:space-y-0"
+	>
+		<!-- Left item -->
+		<div class="mb-32 flex flex-col space-y-12 md:w-1/2">
+			<h1 class="max-w-md text-center text-4xl font-bold md:text-left md:text-5xl">
+				Bring everyone together to build better products
+			</h1>
+			<p class="max-w-sm text-center text-darkGrayishBlue md:text-left">
+				Manage makes it simple for software teams to plan day-to-day tasks while keeping the larger
+				team goals in view.
+			</p>
+            <div class="flex justify-center md:justify-start">
+                <a
+                href="#"
+                class="baseline rounded-full bg-brightRed p-3 px-6 pt-2 text-white hover:bg-brightRedLight"
+                >Get Started</a>                
+            </div>
+		</div>
+		<div>Item 2</div>
+	</div>
+</section>
